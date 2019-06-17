@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "compile:sass": "node-sass src/main.scss dist/style.css",
+    "watch:sass": "npm run compile:sass && npm run compile:sass -- -w"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
